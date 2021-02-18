@@ -1,0 +1,27 @@
+div {
+    color: green;
+}
+p {
+    color: green;
+}
+p[class="red-p"] {
+    color: red;
+}
+p span {
+    color: green;
+}
+p[class="blue-p"] {
+    color: blue;
+}
+p[class="blue-p"] span {
+    color: yellow;
+}
+strong span {
+    color: pink;
+}
+p[data-foo] {
+    color: violet;
+}
+p:hover span {
+    color: red;
+}
