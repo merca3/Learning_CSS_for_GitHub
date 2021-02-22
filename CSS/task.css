@@ -1,27 +1,21 @@
-div {
+div, p {
     color: green;
 }
-p {
-    color: green;
-}
-p[class="red-p"] {
+.red-p {
     color: red;
 }
-p span {
-    color: green;
-}
-p[class="blue-p"] {
+.blue-p {
     color: blue;
 }
-p[class="blue-p"] span {
+.blue-p span {
     color: yellow;
 }
 strong span {
     color: pink;
 }
-p[data-foo] {
+[data-foo] {
     color: violet;
 }
-p:hover span {
+.super-strange-paragraph:hover span {
     color: red;
 }
